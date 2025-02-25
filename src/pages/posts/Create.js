@@ -33,7 +33,7 @@ function CreatePost() {
         })
         .then(() => {
             //redirect
-            history.push('/posts');
+            history('/posts');
         })
         .catch((error) => {
             //assign validation on state

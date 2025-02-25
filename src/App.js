@@ -23,7 +23,12 @@ function App() {
                   <Nav.Link as={Link} to="/" className="nav-link">HOME</Nav.Link>
                   <Nav.Link as={Link} to="/posts" className="nav-link">POSTS</Nav.Link>
                 </Nav>
+                <Nav className="justify-content-end">
+                <Nav.Link as={Link} to="/login" className="nav-link">Login</Nav.Link>
+                <Nav.Link as={Link} to="/register" className="nav-link">Register</Nav.Link>
+                </Nav>
             </Navbar.Collapse>
+            
         </Container>
       </Navbar>
 
